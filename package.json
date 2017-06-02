@@ -2,6 +2,11 @@
   "name": "quarkGUI-docs",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development node dev-server.js"
+  },
   "repository": "https://github.com/benjamindehli/quarkGUI-docs.git",
   "author": "benjamindehli <superelg@gmail.com>",
   "license": "GPL-3.0",
