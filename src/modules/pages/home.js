@@ -1,7 +1,7 @@
-import * as global from "../sections/header";
+import * as headerSection from "../sections/header";
 
 
-let header = global.header;
+let header = headerSection.header;
 
 let page = `${header}`;
 

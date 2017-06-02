@@ -5,7 +5,7 @@ let header = quark.Organisms.Global.Header.getModule({
 	theme: 'primary',
 	logo: {
 		image: {
-			src: require('../../img/svg/app-logo.svg'),
+			src: require('../../img/svg/quark-GUI-logo-white.svg'),
 			alt: 'app logo'
 		},
 		url: "/"
@@ -68,6 +68,6 @@ let header = quark.Organisms.Global.Header.getModule({
 			]
 		}
 	}
-})
+});
 
 export {header}
