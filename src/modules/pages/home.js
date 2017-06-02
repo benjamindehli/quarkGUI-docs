@@ -12,11 +12,8 @@ ${header}
 <main id="mainContent">
 <div class="main-content">
 <h1>quarkGUI</h1>
-<p></p>
+<p>A Webpack GUI framework based on atomic design</p>
 ${modules}
-<h2>Atoms</h2>
-<h2>Molecules</h2>
-<h2>Organisms</h2>
 </div>
 ${footer}
 </main>`;
