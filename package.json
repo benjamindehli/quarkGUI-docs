@@ -1,0 +1,11 @@
+{
+  "name": "quarkGUI-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/benjamindehli/quarkGUI-docs.git",
+  "author": "benjamindehli <superelg@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "quark-gui": "^0.5.16"
+  }
+}
