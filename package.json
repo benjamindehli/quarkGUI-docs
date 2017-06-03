@@ -11,7 +11,7 @@
   "author": "benjamindehli <superelg@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
-    "quark-gui": "^0.5.16"
+    "quark-gui": "^0.6.0"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1",

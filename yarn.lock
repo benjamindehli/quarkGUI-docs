@@ -2706,9 +2706,9 @@ qs@6.4.0, qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-quark-gui@^0.5.16:
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/quark-gui/-/quark-gui-0.5.16.tgz#4f7796fd9eb5ba6544eed67d5175f20226a6864e"
+quark-gui@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/quark-gui/-/quark-gui-0.6.0.tgz#53a505f702fb0ff3c93938d4bb11b078d5046668"
   dependencies:
     dragula "^3.7.2"
 
