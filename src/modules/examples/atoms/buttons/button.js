@@ -3,11 +3,13 @@ import * as quark from "quark-gui";
 let Button = quark.Atoms.Buttons.Button;
 
 export default ` 
+<section id="buttons-flat-buttons" class="sub-section">
 <h3>Flat buttons</h3>
 ${Button.getModule({
 	content: "Default button",
 	id: "button1"
 })}
+
 ${Button.getModule({
 	content: "Primary button",
 	id: "button2",
@@ -33,8 +35,9 @@ ${Button.getModule({
 	id: "button6",
 	theme: "danger"
 })}
+</section>
 
-
+<section id="buttons-raised-buttons" class="sub-section">
 <h3>Raised buttons</h3>
 ${Button.getModule({
 	content: "Default button",
@@ -71,7 +74,9 @@ ${Button.getModule({
 	theme: "danger",
 	type: "raised"
 })}
+</section>
 
+<section id="buttons-minimal-buttons" class="sub-section">
 <h3>Minimal buttons</h3>
 ${Button.getModule({
 	content: "Default button",
@@ -108,4 +113,5 @@ ${Button.getModule({
 	theme: "danger",
 	type: "minimal"
 })}
+</section>
 `;

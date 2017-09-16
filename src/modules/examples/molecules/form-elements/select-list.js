@@ -3,6 +3,7 @@ import * as quark from "quark-gui";
 let SelectList = quark.Molecules.FormElements.SelectList;
 
 export default ` 
+<section id="form-elements-select-lists" class="sub-section">
 <h3>Select lists</h3>
 <h4>Normal select list</h4>
 ${SelectList.getModule({
@@ -132,4 +133,5 @@ ${SelectList.getModule({
 	}
 	]
 })}
+</section>
 `;

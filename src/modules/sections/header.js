@@ -10,7 +10,7 @@ let header = quark.Organisms.Global.Header.getModule({
 		},
 		url: "/"
 	},
-	primaryNavigation: {
+	primaryNavigationLeft: {
 		listItems: [
 		{
 			name: "Link",
@@ -22,20 +22,19 @@ let header = quark.Organisms.Global.Header.getModule({
 			dropdownContent: {
 				listItems: [
 				{
-					name: "Button row",
-					link: "#"
+					name: "Buttons",
+					link: "#buttons"
 				},
 				{
-					name: "Checkbox",
-					link: "#"
-				},
+					name: "Form elements",
+					link: "#form-elements"
+				}, 
 				{
-					name: "Radio button",
-					link: "#"
-				},
-				{
-					name: "Input fied",
-					link: "#"
+					name: "Lists",
+					link: "#lists"
+				}, {
+					name: "Cards",
+					link: "#cards"
 				}
 				]
 			}
@@ -47,23 +46,19 @@ let header = quark.Organisms.Global.Header.getModule({
 		sidebarNavigation: {
 			listItems: [
 			{
-				name: "Global",
-				link: "",
-				moduleLink: "global"
+				name: "Buttons",
+				link: "#buttons"
 			},
 			{
-				name: "Atoms",
-				link: "",
-				moduleLink: "atoms"
+				name: "Form elements",
+				link: "#form-elements"
 			}, 
 			{
-				name: "Molecules",
-				link: "",
-				moduleLink: "molecules"
+				name: "Lists",
+				link: "#lists"
 			}, {
-				name: "Organisms",
-				link: "",
-				moduleLink: "organisms"
+				name: "Cards",
+				link: "#cards"
 			}
 			]
 		}

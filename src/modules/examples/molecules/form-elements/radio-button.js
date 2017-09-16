@@ -3,6 +3,7 @@ import * as quark from "quark-gui";
 let RadioButton = quark.Molecules.FormElements.RadioButton;
 
 export default ` 
+<section id="form-elements-radio-buttons" class="sub-section">
 <h3>Radio buttons</h3>
 ${RadioButton.getModule({
 	id: 'molecule-radio1',
@@ -16,4 +17,5 @@ ${RadioButton.getModule({
 	value: 'two',
 	label: 'Radio button 2'
 })}
+</section>
 `;

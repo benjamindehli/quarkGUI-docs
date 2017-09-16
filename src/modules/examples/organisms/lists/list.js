@@ -3,6 +3,7 @@ import * as quark from "quark-gui";
 let List = quark.Organisms.Lists.List;
 
 export default `
+<section id="lists-standard-list" class="sub-section">
 <h3>Standard list</h3>
 ${List.getModule({
 	id: 'list-menu1',
@@ -99,6 +100,9 @@ ${List.getModule({
 	}
 	]
 })}
+</section>
+
+<section id="lists-expandable-list" class="sub-section">
 <h3>Expandable list</h3>
 ${List.getModule({
 	id: 'list-menu2',
@@ -156,7 +160,9 @@ ${List.getModule({
 	}
 	]
 })}
+</section>
 
+<section id="lists-dragable-list" class="sub-section">
 <h3>Dragable list menu</h3>
 ${List.getModule({
 	id: 'list-menu3',
@@ -215,4 +221,5 @@ ${List.getModule({
 	}
 	]
 })}
+</section>
 `;

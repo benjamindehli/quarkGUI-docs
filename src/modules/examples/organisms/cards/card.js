@@ -6,7 +6,7 @@ let List = quark.Organisms.Lists.List;
 
 
 export default `
-<h4>Card</h4>
+<section id="cards-cards-with-lists" class="sub-section">
 ${Grid.getModule({
 	gridItems:[
 	{
@@ -214,4 +214,5 @@ ${Grid.getModule({
 	}
 	]
 })}
+</section>
 `;
