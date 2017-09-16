@@ -1,11 +1,10 @@
 import * as quark from "quark-gui";
 
-let ListMenu = quark.Organisms.Menus.ListMenu;
+let List = quark.Organisms.Lists.List;
 
 export default `
-<h4>List menu</h4>
-<h5>Standard menu</h5>
-${ListMenu.getModule({
+<h3>Standard list</h3>
+${List.getModule({
 	id: 'list-menu1',
 	raised: true,
 	hover: true,
@@ -100,8 +99,8 @@ ${ListMenu.getModule({
 	}
 	]
 })}
-<h5>Expandable list menu</h5>
-${ListMenu.getModule({
+<h3>Expandable list</h3>
+${List.getModule({
 	id: 'list-menu2',
 	raised: true,
 	listItems: [
@@ -158,8 +157,8 @@ ${ListMenu.getModule({
 	]
 })}
 
-<h5>Dragable list menu</h5>
-${ListMenu.getModule({
+<h3>Dragable list menu</h3>
+${List.getModule({
 	id: 'list-menu3',
 	raised: true,
 	dragable: true,

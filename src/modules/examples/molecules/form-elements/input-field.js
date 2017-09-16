@@ -3,40 +3,40 @@ import * as quark from "quark-gui";
 let InputField = quark.Molecules.FormElements.InputField;
 
 export default ` 
-<h4>Input field</h4>
-<h5>Default field</h5>
+<h3>Input fields</h3>
+<h4>Default field</h4>
 ${InputField.getModule({
 	id: 'molecule-input1',
 	name: 'molecule-inputname1',
 	type: 'text',
 	placeholder: 'Placeholder text here',
-	label: 'Input 1'
+	label: 'Default input'
 })}
-<h5>Required field</h5>
+<h4>Required field</h4>
 ${InputField.getModule({
 	id: 'molecule-input2',
 	name: 'molecule-inputname2',
 	type: 'text',
 	placeholder: 'Placeholder text here',
-	label: 'Input 2',
+	label: 'Required input',
 	attributes: ['required']
 })}
-<h5>Readonly field</h5>
+<h4>Readonly field</h4>
 ${InputField.getModule({
 	id: 'molecule-input3',
 	name: 'molecule-inputname3',
 	type: 'text',
 	placeholder: 'Placeholder text here',
-	label: 'Input 3',
+	label: 'Readonly input',
 	attributes: ['readonly']
 })}
-<h5>Disabled field</h5>
+<h4>Disabled field</h4>
 ${InputField.getModule({
 	id: 'molecule-input4',
 	name: 'molecule-inputname4',
 	type: 'text',
 	placeholder: 'Placeholder text here',
-	label: 'Input 4',
+	label: 'Disabled input',
 	attributes: ['disabled']
 })}
 `;

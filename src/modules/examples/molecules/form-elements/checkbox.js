@@ -3,7 +3,7 @@ import * as quark from "quark-gui";
 let Checkbox = quark.Molecules.FormElements.Checkbox;
 
 export default ` 
-<h4>Checkbox</h4>
+<h3>Checkboxes</h3>
 ${Checkbox.getModule({
 	id: 'molecule-checkbox1',
 	name: 'molecule-checkboxes',

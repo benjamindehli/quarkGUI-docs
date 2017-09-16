@@ -3,7 +3,7 @@ import * as quark from "quark-gui";
 let Button = quark.Atoms.Buttons.Button;
 
 export default ` 
-<h4>Flat buttons</h4>
+<h3>Flat buttons</h3>
 ${Button.getModule({
 	content: "Default button",
 	id: "button1"
@@ -35,7 +35,7 @@ ${Button.getModule({
 })}
 
 
-<h4>Raised buttons</h4>
+<h3>Raised buttons</h3>
 ${Button.getModule({
 	content: "Default button",
 	id: "button7",
@@ -72,7 +72,7 @@ ${Button.getModule({
 	type: "raised"
 })}
 
-<h4>Minimal buttons</h4>
+<h3>Minimal buttons</h3>
 ${Button.getModule({
 	content: "Default button",
 	id: "button13",

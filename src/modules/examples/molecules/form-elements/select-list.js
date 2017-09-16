@@ -3,7 +3,8 @@ import * as quark from "quark-gui";
 let SelectList = quark.Molecules.FormElements.SelectList;
 
 export default ` 
-<h4>Select list</h4>
+<h3>Select lists</h3>
+<h4>Normal select list</h4>
 ${SelectList.getModule({
 	id: 'molecule-select1',
 	name: 'molecule-selectname1',
@@ -34,6 +35,7 @@ ${SelectList.getModule({
 	]
 })}
 
+<h4>Searchable select list</h4>
 ${SelectList.getModule({
 	id: 'molecule-select2',
 	name: 'molecule-selectname2',
@@ -65,6 +67,7 @@ ${SelectList.getModule({
 	]
 })}
 
+<h4>Disabled select list</h4>
 ${SelectList.getModule({
 	id: 'molecule-select3',
 	name: 'molecule-selectname3',
@@ -97,6 +100,7 @@ ${SelectList.getModule({
 	]
 })}
 
+<h4>Readonly select list</h4>
 ${SelectList.getModule({
 	id: 'molecule-select4',
 	name: 'molecule-selectname4',

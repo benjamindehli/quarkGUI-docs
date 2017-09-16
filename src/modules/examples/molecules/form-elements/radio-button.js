@@ -3,7 +3,7 @@ import * as quark from "quark-gui";
 let RadioButton = quark.Molecules.FormElements.RadioButton;
 
 export default ` 
-<h4>Radio button</h4>
+<h3>Radio buttons</h3>
 ${RadioButton.getModule({
 	id: 'molecule-radio1',
 	name: 'molecule-radio-buttons',

@@ -3,7 +3,7 @@ import * as quark from "quark-gui";
 let ButtonRow = quark.Molecules.Buttons.ButtonRow;
 
 export default `
-<h4>Button row</h4>
+<h3>Button row</h3>
 ${ButtonRow.getModule({
 	id: 'button-row1',
 	buttons: [
