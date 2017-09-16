@@ -10,9 +10,11 @@ let modules = ModulesSection.content;
 let page = `
 ${header}
 <main id="mainContent">
-<div class="main-content">
+<div class="introduction-container">
 <h1>quarkGUI</h1>
 <p>A Webpack GUI framework based on atomic design</p>
+</div>
+<div class="main-content">
 ${modules}
 </div>
 ${footer}
