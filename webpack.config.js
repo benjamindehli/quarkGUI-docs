@@ -7,10 +7,9 @@ var HTMLWebpackPlugin = require('html-webpack-plugin');
 var DEVELOPMENT = process.env.NODE_ENV === 'development';
 var PRODUCTION  = process.env.NODE_ENV === 'production';
 
-var outputPath = 'docs';
-var ouputPublicPath = PRODUCTION ? '/quarkGUI-docs/' : '/';
-var cssFileName = PRODUCTION ? 'style-[contenthash:10].css' : 'styles.css';
-var scriptFileName = PRODUCTION ? 'bundle.[hash:12].min.js' : 'bundle.js';
+var outputPath = 'dist';
+var cssFileName = 'style.css';
+var scriptFileName = 'build.js';
 
 var entry = PRODUCTION
 	?	{
@@ -29,7 +28,7 @@ var entry = PRODUCTION
 
 var plugins = PRODUCTION
 	? 	[
-		    new webpack.optimize.CommonsChunkPlugin({name: "vendor", filename: "scripts/vendor.[hash:12].min.js"}),
+		    new webpack.optimize.CommonsChunkPlugin({name: "vendor", filename: "scripts/vendor.js"}),
 			new webpack.optimize.UglifyJsPlugin({
 				compress: {
 					warnings: false,
@@ -120,7 +119,7 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, outputPath),
-		publicPath: PRODUCTION ? ouputPublicPath : '/docs/',
+		publicPath: PRODUCTION ? '/' : '/dist/',
 		filename: PRODUCTION ? 'scripts/' + scriptFileName : scriptFileName
 	}
 };
