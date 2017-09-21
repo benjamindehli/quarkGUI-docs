@@ -7,17 +7,16 @@ var HTMLWebpackPlugin = require('html-webpack-plugin');
 var DEVELOPMENT = process.env.NODE_ENV === 'development';
 var PRODUCTION  = process.env.NODE_ENV === 'production';
 
-var outputPath = 'dist';
 var cssFileName = 'style.css';
 var scriptFileName = 'build.js';
 
 var entry = PRODUCTION
 	?	{
-			vendor: ['dragula'],
+			vendor: ['dragula', 'quark-gui'],
 			app: './src/index.js'
 		}
 	: 	{
-			vendor: ['dragula'],
+			vendor: ['dragula', 'quark-gui'],
 			app: [ 
 				'./src/index.js',
 				'webpack/hot/dev-server',
@@ -118,8 +117,8 @@ module.exports = {
 
 	},
 	output: {
-		path: path.join(__dirname, outputPath),
-		publicPath: PRODUCTION ? '/' : '/dist/',
-		filename: PRODUCTION ? 'scripts/' + scriptFileName : scriptFileName
+		path: path.join(__dirname, './dist'),
+		publicPath: '/dist/',
+		filename: 'scripts/' + scriptFileName
 	}
 };
