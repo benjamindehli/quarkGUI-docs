@@ -19,7 +19,7 @@ export default {
             theme: 'primary',
             logo: {
                 image: {
-                    src: require('../img/svg/quark-GUI-logo-white.svg'),
+                    src: '/src/img/svg/quark-GUI-logo-white.svg',
                     alt: 'app logo'
                 },
                 url: "/"
