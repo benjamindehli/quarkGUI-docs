@@ -1,0 +1,20 @@
+import * as quark from "quark-gui";
+
+let template = `
+<div>
+	<modules></modules>
+	<!--
+	<label>Select module
+		<select v-model="selectedModule">
+			<option v-for="module in modules" v-bind:value="module">{{module.moduleTitle}}</option>
+		</select>
+	</label>
+	
+	<atom-button></atom-button>
+	<molecule-select-list></molecule-select-list> -->
+</div>
+`;
+
+export default template;
+
+

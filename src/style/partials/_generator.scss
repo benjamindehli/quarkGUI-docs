@@ -1,0 +1,110 @@
+.generator {
+    .config, .result{
+    }
+    .config {
+        input{
+            display: block;
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            border: 1px solid #AAA;
+            padding: 4px 8px;
+            &.inline{
+                display: inline-block;
+            }
+        }
+
+        input[type="checkbox"] {
+            -webkit-appearance: checkbox;
+            -moz-appearance: checkbox;
+            appearance: checkbox;
+        }
+        input[type="radio"] {
+            -webkit-appearance: radio;
+            -moz-appearance: radio;
+            appearance: radio;
+        }
+        .form-list{
+            border: 1px solid #aaa;
+            border-radius: 3px;
+            .form-list-item{
+                padding: 16px;
+                border-bottom: 1px solid #aaa;
+                &:last-child{
+                    border-bottom: none;
+                }
+                .form-list-item-remove:before{
+                    font-family: FontAwesome;
+                    display: inline-block;
+                    content: "\F00D";
+                    float: right;
+                    position: relative;
+                    top: -12px;
+                    right: -9px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .button{
+            background-color: #f4f5f6;
+            border-radius: 3px;
+            border: 1px solid #AAA;
+            padding: 4px 12px;
+            display: inline-block;
+            cursor: pointer;
+            &:hover{
+                background-color: #FFF;
+            }
+        }
+
+    }
+    .result{
+        .tabs{
+            .tab{
+
+                cursor: pointer;
+                border: 1px solid #AAA;
+                border-radius: 3px 3px 0 0;
+                padding: 4px 12px;
+                display: inline-block;
+                background-color: #f4f5f6;
+                margin-bottom: -1px; 
+                position: relative;
+                border-bottom: none;
+                &.active{
+                    z-index: 1;
+                    background-color: #fff;
+                }
+                &:hover{
+                    background-color: #fff;
+                }
+            }
+        }
+        .preview, 
+        .markup{
+            position: relative;
+            border: 1px solid #AAA;
+            background-color: #FFF;
+            padding: 16px;
+            border-radius: 0 3px 3px 3px;
+        }
+        .preview{
+        }
+        .markup{
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 16px;
+            span{
+                display: block;
+            }
+            pre{
+                margin: 0;
+            }
+        }
+    }
+    &:after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+}

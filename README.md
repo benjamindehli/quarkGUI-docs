@@ -1,2 +1,2 @@
-# quarkGUI-docs
-Docs for quarkGUI
+# quarkGUI.github.io
+Docs for quarkGUI 

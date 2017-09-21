@@ -3,7 +3,8 @@ import * as FormElements from '../examples/form-elements';
 import * as Lists from '../examples/lists';
 import * as Cards from '../examples/cards';
 
-let content = `
+let template = `
+<div>
 <section id="buttons" class="main-section">
 <h2>Buttons</h2>
 ${Buttons.content}
@@ -23,6 +24,7 @@ ${Lists.content}
 <h2>Cards</h2>
 ${Cards.content}
 </section>
+</div>
 `;
 
-export {content}
+export default template;
