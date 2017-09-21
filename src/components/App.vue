@@ -7,16 +7,7 @@
 				<p>A Webpack GUI framework based on atomic design</p>
 			</div>
 			<div class="main-content">
-				<h1>
-					quarkGUI Generator
-				</h1>
-				<div class="row">
-					
-				</div>
-
 				<examples></examples>
-
-				
 			</div>
 			<main-footer></main-footer> 
 		</main>
