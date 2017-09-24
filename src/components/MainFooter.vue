@@ -17,14 +17,14 @@
                 var footerElement = quark.Organisms.Global.Footer.getModule({
                     logo: {
                         image: {
-                            src: '/src/img/svg/quark-GUI-logo-primary.svg',
+                            src: '/src/img/svg/quark-GUI-logo-gray.svg',
                             alt: 'quarkGUI logo'
                         },
                         url: '/'
                     },
                     content: `
                     <div class="text-center">
-                        <p>quarkGUI Generator licensed under <a href="https://github.com/benjamindehli/quarkGUI-Generator/blob/master/LICENSE">GNU General Public License</a></p>
+                        <p>quarkGUI Generator licensed under <a href="https://github.com/quarkGUI/quarkGUI/blob/master/LICENSE">GNU General Public License</a></p>
                         <p><a href="#">About</a> - <a href="#">Developers</a> - <a href="#">Send feedback</a></p>
                     </div>
                     `
