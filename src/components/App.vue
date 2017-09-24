@@ -3,8 +3,9 @@
 		<main-navigation></main-navigation>
 		<main id="mainContent">
 			<div class="introduction-container">
+				<img src="src/img/svg/quark-GUI-logo-icon.svg" style="width: 115px;">
 				<h1>quarkGUI</h1>
-				<p>A Webpack GUI framework based on atomic design</p>
+				<p>A Webpack templating framework based on atomic design</p>
 			</div>
 			<div class="main-content">
 				<examples></examples>

@@ -1,6 +1,6 @@
 h1, h2, h3, h4{
 	margin: 0;
-	color: #404042;
+	color: #404142;
 }
 
 h3{
@@ -8,20 +8,18 @@ h3{
 }
 
 .introduction-container{
+	border-bottom: 1px solid rgba(0,0,0,.07);
+	background: #232527;
 	margin-top: 0px;
 	padding: 64px 0;
-	color: #fff;
 	text-align: center;
-	background: #2274d8; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, #2274d8 0%, #206dcb 44%, #144580 100%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover, #2274d8 0%,#206dcb 44%,#144580 100%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, #2274d8 0%,#206dcb 44%,#144580 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2274d8', endColorstr='#144580',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-.introduction-container h1{
-	color: #fff;
-	font-size: 4em;
+	h1{
+		color: #fff;
+		font-size: 4em;
+	}
+	p{
+		color: #fff;
+	}
 }
 
 section{
